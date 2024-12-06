@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place and Region Lookup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hands-on Project 11-2</h1>
+        </header>
+        <main>
+            <h2>Place and Region Lookup</h2>
+            <div class="form-container">
+                <form id="locationForm">
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="US">United States</option>
+                            <option value="GB">United Kingdom</option>
+                            <option value="FR">France</option>
+                            <option value="DE">Germany</option>
+                            <option value="IT">Italy</option>
+                            <option value="ES">Spain</option>
+                            <option value="CA">Canada</option>
+                            <option value="JP">Japan</option>
+                            <option value="AU">Australia</option>
+                            <option value="IN">India</option>
+                            <option value="BR">Brazil</option>
+                            <option value="NL">Netherlands</option>
+                            <option value="PL">Poland</option>
+                            <option value="CZ">Czech Republic</option>
+                            <option value="BE">Belgium</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="postalCode">Enter a Postal Code</label>
+                        <input type="text" id="postalCode" name="postalCode">
+                    </div>
+                    <div class="form-group">
+                        <label for="place">Place</label>
+                        <input type="text" id="place" name="place">
+                    </div>
+                    <div class="form-group">
+                        <label for="region">Region</label>
+                        <input type="text" id="region" name="region">
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
